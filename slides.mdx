@@ -1,7 +1,8 @@
 import Emoji from './src/emoji';
 import TallImage from './src/tall-image';
+import AboutMe from './src/about-me';
 export { default as theme } from './src/theme'
-import { Appear, Image } from 'mdx-deck'
+import { Appear, Image, Notes } from 'mdx-deck'
 
 # Double your salary with this one simple trick
 
@@ -9,17 +10,9 @@ import { Appear, Image } from 'mdx-deck'
 <Image src='https://d2mxuefqeaa7sj.cloudfront.net/s_4BCCC39553ADA99C63657514F94123B76AE4DD2605D4D53BC7464B3EB47ACAE9_1544317331982_always+be+closing.gif' />
 
 ---
-# Matthew Gerstman
-
-<ul>
-  <li><Emoji name="dropbox.svg"/> Dropbox Engineer</li>
-  <li>🗽 NYC</li>
-  <li><a href="https://theconsolelog.com">🎧 The Console Log</a></li>
-  <li><a href="https://twitter.com/MatthewGerstman"><Emoji name="twitter.png"/> @MatthewGerstman</a></li>
-</ul>
-
+<AboutMe />
 ---
-# <Emoji name="twitter.png" height={70} /> [@MatthewGerstman](https://twitter.com/MatthewGerstman)
+# <Emoji name="twitter.png" size={70} /> [@MatthewGerstman](https://twitter.com/MatthewGerstman)
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">My success metric for my talk at <a href="https://twitter.com/ReactNext?ref_src=twsrc%5Etfw">@ReactNext</a> is entirely based on the number of new twitter followers I have by tomorrow.</p>&mdash; Matthew Gerstman (Slytherin) (@MatthewGerstman) <a href="https://twitter.com/MatthewGerstman/status/1058949042661703680?ref_src=twsrc%5Etfw">November 4, 2018</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
@@ -130,25 +123,23 @@ import { Appear, Image } from 'mdx-deck'
 
 # Don’t talk money until they’re ready to give you an offer
 ---
-<TallImage src='https://d2mxuefqeaa7sj.cloudfront.net/s_4BCCC39553ADA99C63657514F94123B76AE4DD2605D4D53BC7464B3EB47ACAE9_1543701279307_giphy-7.gif' />
----
-# Constantly change the subject
----
-
 # Hard mode: Get them to say a number first.
-
 ---
-Consider: Any number you say will be an immediate upper bound, any number they say will be a lower bound.
+# Any number you say will be an immediate upper bound; any number they say will be a lower bound.
 ---
-They will chip away at that number throughout the interview process
+# They will chip away at that number throughout the interview process
 ---
-Let's wait to see if this is a godo fit before we discuss comp
+<TallImage src='assets/change-subject-alice.gif' />
+---
+<TallImage src='assets/change-subject-who.gif' />
+---
+# Magic words: Let's wait to see if this is a good fit before we discuss comp.
 ---
 # Next Secret
-
 ---
-# Practice saying that biggest number you're comfortable saying with a straight face. 
-
+<Image src="assets/my-body-is-ready.gif" />
+---
+# Practice saying that biggest number you can with a straight face. 
 ---
 <TallImage src='https://d2mxuefqeaa7sj.cloudfront.net/s_4BCCC39553ADA99C63657514F94123B76AE4DD2605D4D53BC7464B3EB47ACAE9_1543702618055_careerbuilder-original-3396.gif' />
 
@@ -163,7 +154,7 @@ Let's wait to see if this is a godo fit before we discuss comp
 # Have a counter offer
 ---
 # Express concern about anything intangible: Start date, team, etc.
- - Even if you're okay with it make them think you're giving them something
+<Notes>Even if you're okay with it make them think you're giving them something</Notes>
 ---
 # Have a counter offer
 ---
@@ -276,10 +267,4 @@ Money === Comfort
 1. https://www.kalzumeus.com/2012/01/23/salary-negotiation/
 2. https://levels.fyi
 ---
-# Matthew Gerstman
-
-:dropbox dbx db: Dropbox Engineer
-🗽 NYC
-:js-guild: [JS Guild](https://twitter.com/Dropbox/status/1058417224602476544)
-:twitter: [@MatthewGerstman](https://twitter.com/MatthewGerstman)
-[🎧 The Console Log](https://theconsolelog.com)
+<AboutMe />

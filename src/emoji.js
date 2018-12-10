@@ -5,6 +5,16 @@ const EmojiImg = styled.img`
 	display: inline-block;
 `;
 
-export default function Emoji({name, height = 32}) {
-	return <img style={{height}} src={`assets/emoji/${name}`} />;
+export const EmojiWrapper = styled.span`
+	display: inline-grid;
+	margin-right: ${({marginRight}) => marginRight || '10px'};
+	width: ${({size}) => size};
+`;
+
+export default function Emoji({name, size = '32px', marginRight = '10px'}) {
+	return (
+		<EmojiWrapper size={size} marginRight={marginRight}>
+			<EmojiImg style={{width: size}} src={`assets/emoji/${name}`} />
+		</EmojiWrapper>
+	);
 }

@@ -17,12 +17,20 @@ const Footer = styled.footer`
 	bottom: 0;
 `;
 
+const AlignedDiv = styled.div`
+	display: flex;
+	align-items: center;
+`;
+
 export default ({children, height}) => (
 	<Footer height={height}>
 		{children}
-		<span>🎧 The Console Log</span>
 		<span>
-			<Emoji name="twitter.png" height={20} /> @MatthewGerstman
+			🎧 <a href="https://theconsolelog.com">The Console Log</a>
 		</span>
+		<AlignedDiv>
+			<Emoji name="twitter.png" size="16px" marginRight={'5px'} />
+			<a href="https://twitter.com/matthewgerstman">@MatthewGerstman</a>
+		</AlignedDiv>
 	</Footer>
 );
