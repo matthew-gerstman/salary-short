@@ -11,9 +11,15 @@ injectGlobal`
 		color: white;
 		text-decoration: none;
 	}
+
 	ul {
 		list-style: none;
 		text-align: left;
+		font-size: 1.5em;				
+	}
+
+	li {
+		padding-top: 10px;
 	}
 `;
 

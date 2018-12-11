@@ -14,22 +14,14 @@ export default {
 		link: 'white',
 	},
 	a: {color: 'white', textDecoration: 'none'},
-	h1: {},
+	h1: {
+		textTransform: 'uppercase',
+	},
 	h2: {},
 	p: {},
 	weights: 400,
 	img: {
 		maxHeight: '80vh',
 		maxWidth: '100%',
-	},
-	li: {
-		paddingBottom: '20px',
-		lineHeight: 1.5,
-		listStyle: 'none',
-	},
-	ul: {
-		paddingLeft: '50px',
-		display: 'inline-block',
-		listStyle: 'none',
 	},
 };
