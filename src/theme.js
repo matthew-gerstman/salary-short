@@ -8,7 +8,6 @@ export default {
   Provider,
   // add a custom font
   font: "OpenSans, sans-serif",
-  fontSizes: ["0.4em", "0.5em", "0.75em", "1em", "1.5em", "2em", "3em"],
   colors: {
     text: "white",
     background: "#343633",
