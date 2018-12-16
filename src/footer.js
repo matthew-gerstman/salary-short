@@ -32,6 +32,14 @@ export default ({children, height}) => (
         <a href="https://theconsolelog.com">The Console Log</a>
       </span>
     </AlignedDiv>
+
+    <AlignedDiv>
+      <EmojiWrapper size="40px" marginRight="10px">
+        📒
+      </EmojiWrapper>
+      <a href="http://bit.ly/react-nyc-negotiate">bit.ly/react-nyc-negotiate</a>
+    </AlignedDiv>
+
     <AlignedDiv>
       <Emoji name="twitter.png" size="35px" marginRight="10px" />
       <a href="https://twitter.com/matthewgerstman">@MatthewGerstman</a>

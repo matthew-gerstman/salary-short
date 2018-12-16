@@ -26,14 +26,6 @@ export default function AboutMe() {
         </CenteredLi>
         <CenteredLi>
           <EmojiWrapper size="40px" marginRight="30px">
-            📒
-          </EmojiWrapper>
-          <a href="http://bit.ly/react-nyc-negotiate">
-            bit.ly/react-nyc-negotiate
-          </a>
-        </CenteredLi>
-        <CenteredLi>
-          <EmojiWrapper size="40px" marginRight="30px">
             🎧
           </EmojiWrapper>{' '}
           <a href="https://theconsolelog.com">The Console Log</a>
@@ -41,6 +33,14 @@ export default function AboutMe() {
         <CenteredLi>
           <Emoji size="40px" marginRight="30px" name="twitter.png" />
           <a href="https://twitter.com/MatthewGerstman">@MatthewGerstman</a>
+        </CenteredLi>
+        <CenteredLi>
+          <EmojiWrapper size="40px" marginRight="30px">
+            📒
+          </EmojiWrapper>
+          <a href="http://bit.ly/react-nyc-negotiate">
+            bit.ly/react-nyc-negotiate
+          </a>
         </CenteredLi>
       </ul>
     </React.Fragment>
