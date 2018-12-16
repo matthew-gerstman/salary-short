@@ -1,17 +1,17 @@
 {
-	"name": "salary-negotiation",
-	"version": "1.0.0",
-	"description": "slides for salary negotiation",
-	"main": "slides.mdx",
-	"scripts": {
-		"start": "mdx-deck slides.mdx",
-		"build": "mdx-deck build slides.mdx"
-	},
-	"author": "Matthew Gerstman",
-	"dependencies": {
-		"css-loader": "^2.0.0",
-		"file-loader": "^2.0.0",
-		"mdx-deck": "^1.8.2",
-		"style-loader": "^0.23.1"
-	}
+  "name": "salary-negotiation",
+  "version": "1.0.0",
+  "description": "slides for salary negotiation",
+  "main": "slides.mdx",
+  "scripts": {
+    "start": "mdx-deck slides.mdx",
+    "build": "mdx-deck build slides.mdx && cp -R assets/ dist/assets"
+  },
+  "author": "Matthew Gerstman",
+  "dependencies": {
+    "css-loader": "^2.0.0",
+    "file-loader": "^2.0.0",
+    "mdx-deck": "^1.8.2",
+    "style-loader": "^0.23.1"
+  }
 }
