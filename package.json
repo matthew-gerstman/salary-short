@@ -4,7 +4,8 @@
 	"description": "slides for salary negotiation",
 	"main": "slides.mdx",
 	"scripts": {
-		"start": "mdx-deck slides.mdx"
+		"start": "mdx-deck slides.mdx",
+		"build": "mdx-deck build slides.mdx"
 	},
 	"author": "Matthew Gerstman",
 	"dependencies": {
