@@ -39,7 +39,9 @@ export default ({ children, height }) => (
       <EmojiWrapper size="1.5em" marginRight="10px">
         📒
       </EmojiWrapper>
-      <a href="http://bit.ly/react-nyc-negotiate">bit.ly/react-nyc-negotiate</a>
+      <a href="http://negotiate.matthewgerstman.com">
+        negotiate.matthewgerstman.com
+      </a>
     </AlignedDiv>
 
     <AlignedDiv>
