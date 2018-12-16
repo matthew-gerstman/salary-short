@@ -1,10 +1,10 @@
-import React, { Fragment, Component } from "react";
-import styled, { injectGlobal } from "styled-components";
-import { modes } from "mdx-deck/dist/constants";
-import Footer from "./footer";
-import { darkBlue } from "./colors";
+import React, {Fragment, Component} from 'react';
+import styled, {injectGlobal} from 'styled-components';
+import {modes} from 'mdx-deck/dist/constants';
+import Footer from './footer';
+import {lightBlue} from './colors';
 
-const footerHeight = "80px";
+const footerHeight = '80px';
 
 injectGlobal`
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,800');
@@ -35,7 +35,7 @@ const Wrapper = styled.main`
 `;
 
 const Bar = styled.div`
-  background: #b5dfca;
+  background: white;
   height: 2px;
   width: ${props => 100 * props.size}%;
   position: fixed;
@@ -44,7 +44,7 @@ const Bar = styled.div`
 
 export default class Provider extends Component {
   render() {
-    const { children, mode, index, length, update } = this.props;
+    const {children, mode, index, length, update} = this.props;
 
     if (mode !== modes.normal) {
       return <Fragment>{children}</Fragment>;
