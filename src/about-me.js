@@ -8,6 +8,7 @@ const CenteredLi = styled.li`
   align-items: center;
 `;
 
+// Dummy comment
 export default function AboutMe() {
   return (
     <React.Fragment>
